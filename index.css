@@ -1,7 +1,7 @@
 html, body {
     margin: 0;
     padding: 0;
-    width: 375px;
+    max-width: 375px;
     font-family: "Source Sans 3", sans-serif;
 }
 
@@ -9,27 +9,23 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 0 5px 15px;
+    padding: 5px 15px;
     border-bottom: 1px solid #C6C6C6;
 }
 
 .logo {
     width: 130px;
-    height: 60px;    
+    height: 60px;
 }
 
-.user-profile-img {
+.user-profile-img, .friend-dp {
     width: 35px;
     height: 35px;
-    border-radius: 100%;
-    
+    border-radius: 100%;   
 }
 
 .friend-dp {
     padding: 10px 7px 10px 10px;
-    width: 35px;
-    height: 35px;
-    border-radius: 100%;
 }
 
 .user-post-info {
@@ -50,19 +46,14 @@ header {
 }
 
 section img {
-    width: 375px; 
-    height: 375px;
+    width: 100%; 
 }
 
 .icons img {
     width: 26px;
     height: 28px;
-    /* height: 23px; */
-    /* padding: 13px 4px; */
-    /* gap: 30px; */
     margin-top: 10px;
     margin-bottom: 5px;
-    /* margin-left: -5px; */
     padding-left: 8px;
 
 }
