@@ -5,10 +5,13 @@ html, body {
     font-family: "Source Sans 3", sans-serif;
 }
 
-header {
+header, .user-post-info {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+}
+
+header {
+    justify-content: space-between;
     padding: 5px 15px;
     border-bottom: 1px solid #C6C6C6;
 }
@@ -26,11 +29,6 @@ header {
 
 .friend-dp {
     padding: 10px 7px 10px 10px;
-}
-
-.user-post-info {
-    display: flex;
-    align-items: center;
 }
 
 .friend-name {
@@ -55,19 +53,19 @@ section img {
     margin-top: 10px;
     margin-bottom: 5px;
     padding-left: 8px;
-
 }
 
 .total-likes {
-    font-size: 13px;
     font-weight: 700;
     margin: 0;
-    margin-left: 12px;
 }
 
 .comment {
-    font-size: 13px;
-    margin-left: 12px;
     margin-top: 9px;
     margin-bottom: 20px;
+}
+
+.total-likes, .comment {
+    font-size: 13px;
+    margin-left: 12px;
 }
